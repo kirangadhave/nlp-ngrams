@@ -1,5 +1,6 @@
 #!/usr/bin/env python3.6
 import sys
+from math import log
 from collections import Counter
 
 train_file = sys.argv[1]
@@ -33,6 +34,8 @@ def extract_bigrams(train_file):
 def compute_probabilites(gram):
     prob_list = Counter(gram)
     gram_length = len(gram)
+    for x in prob_list:
+        prob_list[x] = log(prob_list[x],2) - log(gram_length,2)
     return prob_list
 
 u = extract_unigrams(train_file)
