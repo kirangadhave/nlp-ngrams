@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.6
 import sys
 import calc
+import string
 from math import log
 import ngram_extract as ne
 
@@ -18,61 +19,53 @@ def gen_bigram_model(smoothing = 0):
 #bigram_prob = gen_bigram_model
 #bigram_prob_smooth = gen_bigram_model(1)
 
+def unigram_sent_prob(test):
+    unigram_model = gen_unigram_model()
+    logprob = 0.0
+    for y in test:
+        logprob += log(unigram_model[y],2)
+    return logprob
 
-
+def bigram_sent_prob(test):
+    bigram_model = gen_bigram_model()
+    logprob = 0.0
+    for y in test:
+        if(bigram_model[y] == 0.0):
+            return "undefined"
+        logprob += log(bigram_model[y],2)
+    return logprob
 
 def compute_sentence_prob():
-    unigram_model = gen_unigram_model()
-    bigram_model = gen_bigram_model()
+    test_unigrams = []
+    test_bigrams = []
+    
+    with open(test_or_seed_file) as f:
+        for x in f:
+            u = x.strip().split(" ")
+            u = [y.lower() for y in u]
+            u = [y for y in u if len(y) > 0 and y not in set(string.punctuation)]
+            test_unigrams.append((x,u))
+            
+            b = ["phi"]
+            b.extend(y.lower() for y in x.strip().split(" "))
+            b = [y for y in b if len(y) > 0 and y not in set(string.punctuation)]
+            b_c = b[1:]
+            b = b[:-1]
+            b = list(zip(b,b_c))
+            test_bigrams.append((x,b))
     
     unigram_log_probs = {}
     bigram_log_probs = {}
     
-    sp_bigram = 0.0
-    sp_bigram_smooth = 0.0
-    
-    test_unigrams = []
-    test_bigrams = []
-    with open(test_or_seed_file) as f:
-        for x in f:
-            unigram = (x.strip().split(" "))
-            unigram = [y.lower() for y in unigram]
-            unigram = [x for x in unigram if len(x) > 0]
-            test_unigrams.append((x, unigram))
-            
-            bigram = ["phi"]
-            bigram.extend([y.lower() for y in x.strip().split(" ")])
-            bigram = [y for y in bigram if len(y) > 0]        
-            bigram_c = bigram[1:]
-            bigram = bigram[:-1]
-            bigram = list(zip(bigram, bigram_c))
-            test_bigrams.append((x, bigram))
-    
     for x in test_unigrams:
-        sp_unigram = 0.0
-        for y in x[1]:
-            if(unigram_model[y] == 0.0):
-                unigram_log_probs[x[0]] = logprob
-                break
-            sp_unigram += log(unigram_model[y],2)
-        unigram_log_probs[x[0]] = sp_unigram
+        unigram_log_probs[x[0]] = unigram_sent_prob(x[1])
         
     for x in test_bigrams:
-        sp_bigram = 0.0
-        for y in x[1]:
-            logprob = "undefined"
-            if(bigram_model[y] != 0.0 and sp_bigram != "undefined"):
-                sp_bigram += log(bigram_model[y],2)
-            else:
-                sp_bigram = "undefined"
-        bigram_log_probs[x[0]] = sp_bigram
-    
-    for x in bigram_log_probs:
-        print(x+ str(bigram_log_probs[x]))
-        
-    
-            
-        
+        bigram_log_probs[x[0]] = bigram_sent_prob(x[1])
+#          
+    print(unigram_log_probs)
+    print()
+    print(bigram_log_probs)
     
     
 def ngram_lang_gen():
