@@ -7,15 +7,6 @@ test_file = sys.argv[3]
 unigram_prob = []
 bigram_prob = []
 
-
-def extract_ngrams(text, n = 1):
-    i = 0
-    ngram = []
-    a = text[i:i+n]
-    while len(a) == n:
-        ngram.extend(a)
-        a = text[i:i+n]
-    return ngram
         
 def extract_unigrams(train_file):
     unigrams = []
@@ -25,7 +16,6 @@ def extract_unigrams(train_file):
     unigrams = [y.lower() for y in unigrams]
     unigrams = [x for x in unigrams if len(x) > 0]
     return unigrams
-
 
 def extract_bigrams(train_file):
     bigrams = []
@@ -46,6 +36,7 @@ def compute_probabilites(gram):
     return prob_list
 
 u = extract_unigrams(train_file)
-u = compute_probabilites(u)
-#b = extract_bigrams(train_file)
-#a = compute_probabilites(u)
+b = extract_bigrams(train_file)
+
+unigram_prob = compute_probabilites(u)
+bigram_prob = compute_probabilites(b)
