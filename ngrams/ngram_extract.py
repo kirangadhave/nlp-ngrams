@@ -1,4 +1,5 @@
 import string
+from collections import Counter
 def extract_unigrams(train_file):
     unigrams = []
     with open(train_file) as f:
@@ -7,7 +8,7 @@ def extract_unigrams(train_file):
     unigrams = [y.lower() for y in unigrams]
     #unigrams = [x for x in unigrams if len(x) > 0 and x not in set(string.punctuation)]
     unigrams = [x for x in unigrams if len(x) > 0]
-    return unigrams
+    return Counter(unigrams)
 
 def extract_bigrams(train_file):
     bigrams = []
@@ -21,4 +22,4 @@ def extract_bigrams(train_file):
             bigram = bigram[:-1]
             bigram = list(zip(bigram, bigram_c))
             bigrams.extend(bigram)
-    return bigrams
+    return Counter(bigrams)
