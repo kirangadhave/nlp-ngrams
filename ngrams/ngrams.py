@@ -42,8 +42,8 @@ def bigram_sentence_prob(train_file,test_or_seed_file):
     for x in test_bigrams:
         logprob = 0.0
         for y in x[1]:
-            prob_bigram = bigram_model[y]/total_bigram_freq
-            prob_prec_word = unigram_model[y[0]]/total_unigram_freq
+            prob_bigram = bigram_model[y]
+            prob_prec_word = unigram_model[y[0]]
             prob_bigram_cond = prob_bigram/prob_prec_word
             if(prob_bigram_cond == 0 or logprob == "undefined"):
                 logprob = "undefined"
