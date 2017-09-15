@@ -12773,3 +12773,459 @@ Traceback (most recent call last):
   File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
     processed_info = self._process_conda_info(info)
   File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info
+    processed_info = info.copy()
+AttributeError: 'bytes' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 321, in _conda_info_processed
+    processed_info = self._process_conda_info(info)
+  File "/home/kbg/anaconda3/lib/python3.6/site-packages/anaconda_navigator/api/anaconda_api.py", line 432, in _process_conda_info

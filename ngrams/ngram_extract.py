@@ -1,5 +1,5 @@
-import string
 from collections import Counter
+
 def extract_unigrams(train_file, phi = 0):
     unigrams = []
     with open(train_file) as f:
