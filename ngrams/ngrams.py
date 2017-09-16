@@ -1,7 +1,7 @@
 #!/usr/bin/env python3.6
 import sys
 import gen
-import test
+import check as test
 from random import *
 
 train_file = sys.argv[1]

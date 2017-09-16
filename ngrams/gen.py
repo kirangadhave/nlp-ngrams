@@ -1,5 +1,5 @@
 from random import *
-import test
+import check as test
 
 unigram_model = None
 bigram_model = None
