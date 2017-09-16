@@ -13,6 +13,23 @@ if "test" in mode:
     b = test.bigram_sentence_prob(train_file, test_or_seed_file)
     c = test.bigram_sentence_prob(train_file, test_or_seed_file,1)
 
+    for x in a.keys():
+        print("S = " + x.strip())
+        print()
+        print("Unsmoothed Unigrams, logprob(S) = " + str(a[x]))
+        print("Unsmoothed Bigrams, logprob(S) = "+ str(b[x]))
+        print("Smoothed Bigrams, logprob(S) = "+ str(c[x]))
+        print()
+        
 if "gen" in mode:
     gen.set_unigram_bigram(train_file, test_or_seed_file)
     gen = gen.gen_function(train_file, test_or_seed_file)
+    
+    for x in gen:
+        print("Seed = " + x[0].strip())
+        print()
+        count = 1
+        for y in x[1]:
+            print("Sentence " + str(count) +": " + y)
+            count += 1
+        print()
